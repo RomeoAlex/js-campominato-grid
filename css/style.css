@@ -1,0 +1,19 @@
+/* reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* common */
+.app-container{
+    width:100%;
+    height: 100vh;
+}
+header{
+    height:120px;
+}
+main{
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-color: black;
+}
