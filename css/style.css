@@ -13,7 +13,26 @@ header{
     height:120px;
 }
 main{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 120px);
     width: 100%;
-    background-color: black;
+    background-color: #7fffd4;
+}
+.upper-container{
+    padding-top:40px;
+    margin:auto;
+    width: 60%;
+    background-color: antiquewhite;
+}
+.box-container{
+    /* padding-top:100px; */
+    margin:0 auto;
+    width:100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-box{
+    height:110px;
+    width:110px;
+    border: 2px solid black;
 }
