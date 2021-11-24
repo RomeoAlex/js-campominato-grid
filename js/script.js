@@ -10,6 +10,8 @@ const playButton = document
 //     const newBox = document.createElement('div');
 //     newBox.classList.add('box-100');
 //     const textInside = document.createElement('span');
+// textInside.append(myValue);
+//     newBox.append(textInside);
 //     createBox.append(newBox);
     
 // }
@@ -21,6 +23,8 @@ const playButton = document
 //     const newBox = document.createElement('div');
 //     newBox.classList.add('box-81');
 //     const textInside = document.createElement('span');
+        // textInside.append(myValue);
+    // newBox.append(textInside);
 //     createBox.append(newBox);
     
 // }
@@ -28,10 +32,12 @@ const playButton = document
 // function box49(){
 const createBox = document.querySelector('.box-container');
 for( i = 1; i<= 49; i++){
-    // myValue = i;
+    myValue = i;
     const newBox = document.createElement('div');
     newBox.classList.add('box-49');
     const textInside = document.createElement('span');
+    textInside.append(myValue);
+    newBox.append(textInside);
     createBox.append(newBox);
 
 }

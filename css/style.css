@@ -12,6 +12,11 @@
 header{
     height:80px;
 }
+.nav{
+    padding-top: 30px;
+display: flex;
+justify-content: space-around;
+}
 main{
     height: calc(100vh - 80px);
     width: 100%;
@@ -22,6 +27,7 @@ main{
     margin:auto;
     width: 800px;
     background-color: antiquewhite;
+    text-align: center;
 }
 .box-container{
     /* padding-top:100px; */
@@ -29,19 +35,48 @@ main{
     width:100%;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    
 }
+.select-level{
+    
+}
+
+/* classi per griglia metodo 1 */
+/* .level-1{
+width:calc(100% / 10);
+height:calc(100% / 10);
+}
+.level-2{
+    width:calc(100% / 9);
+    height:calc(100% / 9);
+    }
+.level-3{
+    width:calc(100% / 7);
+    height:calc(100% / 7);
+    }     */
 .box-100{
     height:80px;
     width:80px;
     border: 2px solid black;
+    line-height: 80px;
 }
 .box-81{
     height:88px;
     width:88px;
     border: 2px solid black;
+    line-height: 88px;
 }
 .box-49{
     height:110px;
     width:110px;
     border: 2px solid black;
+    line-height: 110px;
+}
+/* creo due classi per nascondere e rendere visibile la grigla e la scritta */
+.visible{
+    display: block;
+}
+.hidden{
+    display: none;
 }
