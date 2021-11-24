@@ -1,3 +1,5 @@
+// IMPORTANTE SCRIVERE LA STRATEGIA DI APPROCCIO
+const playButton = document
 // creo la funzione che mi popola il box di quadrati
 // funzione che crea 100 quadrati
 

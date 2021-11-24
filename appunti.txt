@@ -1,0 +1,21 @@
+Al click 
+leggo il numero della cella
+se il numero è incluso nell'array delle bombe [il gioco finisce] e la cella diventa rossa
+altrimenti:
+         la cella diventa azzurra e non più cliccabile
+         il numero selezionato lo aggiungiamo all'array che contiene i numeri non bombe 'azzeccati' dall'utente
+         se la lunghezza dell'array dei numeri azzzeccati e >= numero max di tentativi: [gioco finisce]
+
+funzione gioco finisce
+controllo sul click della cella
+function clickHadler() {
+    const clickedNumber = 
+}
+tutti i click successivi non funzionano più
+this.style.pointerEvents = none;
+this.removeEventListener('click' , handleCellClick);
+endGame('win')
+endGame('loose')
+function endGame(winOrLose){
+    alert();
+})
