@@ -1,5 +1,6 @@
 // IMPORTANTE SCRIVERE LA STRATEGIA DI APPROCCIO
-const playButton = document
+// constante per evidenziare l'id del bottone play
+const playButton = document.getElementById('play-button'); 
 // creo la funzione che mi popola il box di quadrati
 // funzione che crea 100 quadrati
 
